@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!--
+    Name: Trey Michaels
+    Date: 4/3/2019
+    Section: CSE 154 AG
+    This is the about.html page of my creative portfolio. It contains fun facts, images, and other
+    basic information about me. It also has a link to my "More About Me" page.
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="main.js"></script>
+    <title>About Trey</title>
+  </head>
+  <body>
+    <banner>
+      <a href="index.html">
+        <img id="Trey" src="TreyProfilePic.jpg" alt="profile picture"/>
+      </a>
+      <div>
+        <p>Work Email: Thomas.michaels@live.com</p>
+        <p>Personal Email: Thomam7@uw.edu</p>
+        <p>Phone Number: 425-647-6959</p>
+      </div>
+      <nav>
+        <a href="index.html">Home</a> |
+        <!--<a href="more.html">Learn More</a> |-->
+        <a href="resume.html">Resume</a> |
+        <a href="movies.html">Movies</a>
+      </nav>
+    </banner>
+    <hr>
+    <header>
+      <h1>Movies</h1>
+      <p>
+        This page uses AJAX/JSON to generate content. It is a fun and interactive page I used to demonstrate
+        my knowledge of JavaScript as well as working with API's and manipulating JSON data. If you're interested
+        in any of top current movies feel free to explore!
+      </p>
+      <h2>Current Most Popular Movies</h2>
+    </header>
+    <hr>
+    <main id ="main">
+      <section id="popular-movies" class="movies"></section>
+    </main>
+    <footer>
+      <hr>
+      <p>
+        Data for the top movies belongs to https://www.themoviedb.org/documentation/api
+      </p>
+    </footer>
+  </body>
+</html>

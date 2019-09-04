@@ -1,0 +1,149 @@
+/*
+    Name: Trey Michaels
+    Date: 4/4/2019
+    Section: CSE 154 AG
+    The style.css page for my Creative project portfolio. Used for every page to provide
+    a consistent look and theme.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Merriweather');
+
+
+body {
+  background-image: url("Sunset.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: auto;
+  color: white;
+  padding: 20px;
+  font-family: helvetica, serif;
+}
+
+a {
+  color: skyblue;
+}
+
+header {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  font-size: 20px;
+}
+
+banner {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#Trey {
+  width: 200px;
+  height: 200px;
+  border-radius: 75%;
+  border: 5px solid white;
+}
+
+.block {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.movies {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 10px white solid;
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.card .front {
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.card .back {
+  margin: auto;
+  padding: 20px;
+}
+
+main {
+  padding-top:  20px;
+  padding-bottom: 20px;
+}
+
+#main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.content {
+  width: 50%;
+  font-size: 20px;
+  font-family: serif;
+}
+
+.images {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.images img {
+  width: 200px;
+  height: 200px;
+}
+
+.lists {
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#resume {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#resume img {
+  width: 80%;
+}
