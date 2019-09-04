@@ -10,7 +10,7 @@
 
 
 body {
-  background: url(sunset.jpg) no-repeat center center;
+  background-color: black;
   background-size: cover; 
   background-repeat: no-repeat;
   background-attachment: fixed;
