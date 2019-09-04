@@ -10,7 +10,8 @@
 
 
 body {
-  background-image: url("Sunset.jpg");
+  background: url(../sunset.jpg) no-repeat center center;
+  background-size: cover; 
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
